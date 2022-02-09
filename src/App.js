@@ -1,5 +1,5 @@
 import './App.css';
-import { NewHomes, NavBar, MarketingFooter } from './ui-components'
+import { NewHomes, NavBar, MarketingFooter, CardB } from './ui-components'
 
 function App() {
 return (
@@ -8,6 +8,7 @@ return (
 <div className="App">
 <NavBar />
 <NewHomes />
+<CardB />
 <MarketingFooter />
 </div>
 
